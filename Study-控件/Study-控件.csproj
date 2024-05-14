@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4944463-183F-4432-8E3F-349F5E733D4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Study_控件</RootNamespace>
+    <AssemblyName>Study-控件</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="newListView.Designer.cs">
+      <DependentUpon>newListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newListView.resx">
+      <DependentUpon>newListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAB053919EF15BC2DD993D7A2D0CA807.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\二哈.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\猪猪侠.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小猪猪.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-01 14_26_05_宁静苑-跑3-左_3475441d-d195-44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-01 14_32_36_宁静苑-跑2-左_868ad91c-d069-4e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-01 14_33_03_宁静苑-跑3-右_c67df243-9f4b-46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-08 18_49_34_宁静苑-跑2-左_6a8a06c3-da60-4a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-08 18_51_45_宁静苑-跑3-左_29a43176-1015-45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-08 18_57_20_宁静苑-跑2-左_65b775d3-144a-48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-09 21_01_27_太极-西7-出_b619c5c1-bf75-46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1676268_2023-04-13 20_50_31_风华-组1-跑步检1_1e86b47e-ef3e-47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG20210502140639.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20210502140117.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20210620222218.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\二哈.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\富士山下.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\更好！.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\憨憨.webp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\憨憨小猪.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\憨猪2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\好青年.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\核酸检测.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\健康码.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\卡农.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\科技比赛.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\老妈.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\曼德拉效应1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\瞧这一家人.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\去龙山啦！.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\天空之城.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\铜梁中学 %282%29.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\铜梁中学（1）.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\铜梁中学（3%29.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\向日葵.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小金毛.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
