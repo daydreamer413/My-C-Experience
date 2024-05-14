@@ -34,9 +34,11 @@
 ###### **3. 进入框、详情框、选中框**
    所有框的显示效果均采用双缓冲绘制，视觉上更加流畅且迅速。
    鼠标进入时，图片底框呈半透明淡蓝色
-   ![image](https://github.com/daydreamer413/My-C-Experience/Study-控件/showimage.jpg)
+   ![image](https://github.com/daydreamer413/My-C-Experience/blob/master/Study-控件/showimage.jpg)
    鼠标悬停时，显示详情框，包含图片的完整名称、类型、分辨率、大小信息
+   ![image](https://github.com/daydreamer413/My-C-Experience/blob/master/Study-控件/hover and enter.pic.jpg)
    鼠标点击时，图片底框呈半透明蓝色，表示图片被选中；再次点击时，取消底框
+   ![image](https://github.com/daydreamer413/My-C-Experience/blob/master/Study-控件/chosed.pic.jpg)
 ###### **4. 导出被选中的图片**
    通过自行调用接口函数Selected_Image()，导出被选中的图片
 
